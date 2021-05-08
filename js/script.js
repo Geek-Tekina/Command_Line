@@ -152,7 +152,7 @@ function commandContact(contactCommand) {
             email: email,
             msg: msg
         }
-        Pageclip.send('4Su7erWLCNoaQOBodFPWpTZJ5y17mKiL', 'contact-form', data, function (error, response) {
+        Pageclip.send('yLsaL2m8bDDFfAyVwIOfm9wZ8HYnNxB9', 'contact-form', data, function (error, response) {
             if(error) {
                 alert('something went wrong!');
                 console.log('error');
