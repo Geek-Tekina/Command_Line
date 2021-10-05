@@ -58,6 +58,26 @@ body {
     transition: 0.2s ease-in-out;
 } .buttonYellow:hover {background-color: #868600;}
 
+.button_clr_cng{
+    border-radius: 25%;
+    width: 30px;
+    height: 20px;
+    margin: 8px 5px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor:grab;
+}
+.buttonblue {
+    background-color: #7e52f5;
+    transition: 0.2s ease-in-out;
+} .buttonYellow:hover {background-color: #072bfa;}
+
+.buttongrey{
+    background-color: #6b6972;
+    transition: 0.2s ease-in-out;
+} .buttonYellow:hover {background-color: #38393b;}
+
+
 #githubIcon {
     float: right;
     color: black;
@@ -129,3 +149,9 @@ a:hover {
   }
 
 /* Custom ScrollBar Styling Ends Here :_:*/
+
+  
+
+
+ 
+
