@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css/flaticon.css">
     
 </head>
-<body>
+<body >
 
     <div id="terminalContent">
-        <div class="container">
+        <div class="container" >
 
             <div id="terminalHeader">
                 <div class="button buttonRed"></div>
@@ -27,12 +27,14 @@
 
             </div>
 
-            <div id="terminalBody">
+            <div id="terminalBody" >
                 Hello, folks 👋<br>
                 Use "help" to view list of commands<br>
                  > <input type="text" style="width: 85%;" autofocus />
-            </div>
-
+                 <br><br>
+            </div><span>Switch between colors for prompt --></span>
+            <button class="button_clr_cng buttonblue" onclick="document.getElementById('terminalBody').style.backgroundColor= 'blue'"> B</button> 
+            <button class="button_clr_cng buttongrey" onclick="document.getElementById('terminalBody').style.backgroundColor= 'grey'">G</button>
         </div>
     </div>
 
@@ -42,3 +44,5 @@
 
 </body>
 </html>
+
+  
